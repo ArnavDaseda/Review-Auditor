@@ -3,6 +3,7 @@ langchain
 langchain-core
 langchain-community
 langchain_groq
+streamlit
 
 # OpenAI Integration
 langchain-openai
