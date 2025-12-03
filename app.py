@@ -12,7 +12,7 @@ if st.button("Analyze Review"):
     try:
         llm = ChatGroq(
             temperature=0,
-            groq_api_key= os.environ.get("GROQ_API_KEY"),           
+            groq_api_key= st.secrets.get("GROQ_API_KEY"),           
             model="llama-3.1-8b-instant",
         )
 
